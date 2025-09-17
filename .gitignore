@@ -1,0 +1,19 @@
+# Na raiz do projeto
+echo "# Ignorar ambiente virtual
+env/
+.env/
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários
+.DS_Store
+*.log
+
+# Configurações do editor (exemplo VSCode)
+.vscode/" > .gitignore

@@ -1,0 +1,40 @@
+## FAST API
+https://fastapi.tiangolo.com/ 
+
+- Moderno framework de alta-performance para criação de APIs (e websites) com Python
+
+- Alta permormance
+- Rápido para codificar
+- Ajuda a reduzir o número de bugs
+- Intuitivo
+- Baseado em padrões de documentação para APIs
+
+- Pode ser usado com API secundária, para coletar informações/dados.
+
+Virtual Environment = .env
+    - py -m venv env
+
+- Sempre que instalar uma nova biblioteca, usar pip freeze para colocar no requirements
+
+COMANDOS:
+    py -m venv env
+    cd env
+    cd Scripts
+    activate
+    cd ..
+    cd ..
+    pip install "fastapi[standard]"
+    pip freeze > requirements.txt
+    fast api dev .\Examples_1\main.py
+
+# Path Paramters x Query Paramters
+
+    # Paramters:
+        - Parâmetros que colocamos junto ao caminho de onde queremos...
+        - Incorporados na URL antes do sinal de interrogação
+        - Não podem ser omitidos, pois são parte da URL
+        - São usados para buscar um bvalor específico
+        ....
+
+
+pip install requests
