@@ -2,7 +2,7 @@ from core.configs import settings
 from core.database import engire
 from models import all_models
 
-async def create_tables() -> None
+async def create_tables() -> None:
     print("Criando tabelas no banco de dados")
 
     async with engire.begin() as connection:
